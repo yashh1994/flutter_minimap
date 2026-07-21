@@ -1,0 +1,14 @@
+name: flutter_minimap_example
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_minimap:
+    path: ../
+
+flutter:
+  uses-material-design: true

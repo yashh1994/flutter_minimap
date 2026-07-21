@@ -1,0 +1,16 @@
+name: flutter_minimap
+description: A lightweight, synchronized minimap for Flutter InteractiveViewer.
+version: 0.1.0
+
+environment:
+  sdk: ^3.12.2
+  flutter: ">=3.18.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
