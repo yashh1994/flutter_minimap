@@ -36,7 +36,8 @@ class MiniMapGeometry {
     return MiniMapGeometry._(
       contentSize: contentSize,
       mapSize: mapSize,
-      contentRect: Offset(
+      contentRect:
+          Offset(
             (mapSize.width - previewSize.width) / 2,
             (mapSize.height - previewSize.height) / 2,
           ) &
@@ -59,8 +60,6 @@ class MiniMapGeometry {
   Offset toScene(Offset mapPoint) => (mapPoint - contentRect.topLeft) / scale;
 
   /// Converts a rect in scene coordinates to one in minimap coordinates.
-  Rect toMapRect(Rect sceneRect) => Rect.fromPoints(
-    toMap(sceneRect.topLeft),
-    toMap(sceneRect.bottomRight),
-  );
+  Rect toMapRect(Rect sceneRect) =>
+      Rect.fromPoints(toMap(sceneRect.topLeft), toMap(sceneRect.bottomRight));
 }

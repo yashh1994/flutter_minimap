@@ -4,6 +4,36 @@ A small, focused minimap for Flutter's `InteractiveViewer`. It previews one
 finite-size canvas, tracks pan and zoom through a `TransformationController`,
 and can navigate the canvas by dragging the viewport on the minimap.
 
+## Demo
+
+Below is a short example video demonstrating the minimap in the `example` app.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/yashh1994/flutter_minimap/main/assets/example_1.gif" width="280">
+      <br>
+      <b>Section Layout</b>
+    </td>
+      <td align="center">
+      <img src="https://raw.githubusercontent.com/yashh1994/flutter_minimap/main/assets/theater.png" width="280">
+      <br>
+      <b>Theater Layout</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/yashh1994/flutter_minimap/main/assets/office.png" width="280">
+      <br>
+      <b>Office Layout</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/yashh1994/flutter_minimap/main/assets/plane.png" width="280">
+      <br>
+      <b>Plan Layout</b>
+    </td>
+  </tr>
+</table>
+If the video does not appear, place the demo file at `example/example_1.mov` in this repository (the example video filename is `example_1.mov`).
+
 ## Features
 
 - Live viewport tracking while panning and zooming
@@ -44,4 +74,13 @@ Run the example:
 ```sh
 cd example && flutter run
 ```
+
 # flutter_mini
+
+## Maintainer
+
+Maintained by Yash Fadadu.
+
+## Contributing
+
+Found a bug or want to improve the package? Please register an issue or submit a pull request on the repository. Contributions, feature requests, and bug reports are welcome — open issues or contribute at https://github.com/yashh1994/flutter_minimap

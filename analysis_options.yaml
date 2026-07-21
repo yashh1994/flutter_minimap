@@ -1,35 +1,4 @@
 include: package:flutter_lints/flutter.yaml
 
-analyzer:
-  exclude:
-    - build/**
-    - ios/**
-    - android/**
-    - macos/**
-    - windows/**
-    - .dart_tool/**
-    - .packages
-    - pubspec.lock
-
-linter:
-  rules:
-    - always_declare_return_types
-    - always_specify_types
-    - avoid_print
-    - prefer_const_constructors
-    - prefer_const_literals_to_create_immutables
-    - prefer_final_fields
-    - prefer_final_locals
-    - prefer_is_empty
-    - prefer_if_null_operators
-    - sort_constructors_first
-    - unnecessary_this
-    - avoid_redundant_argument_values
-    - avoid_positional_boolean_parameters
-
-# Optional: you can add project-specific rule overrides below.
-# rules:
-#   avoid_print: falseinclude: package:flutter_lints/flutter.yaml
-
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

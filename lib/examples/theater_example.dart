@@ -89,7 +89,7 @@ class TheaterScene extends StatelessWidget {
           end: Alignment.bottomCenter,
           colors: [
             const Color(0xFF0F172A),
-            colorScheme.surface.withOpacity(0.95),
+            colorScheme.surface.withValues(alpha: 0.95),
           ],
         ),
       ),
@@ -172,7 +172,7 @@ class TheaterScene extends StatelessWidget {
                     width: 220,
                     height: 70,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.12),
+                      color: Colors.white.withValues(alpha: 0.12),
                       borderRadius: BorderRadius.circular(16),
                     ),
                     child: Center(

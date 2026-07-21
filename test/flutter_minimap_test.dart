@@ -3,7 +3,9 @@ import 'package:flutter_minimap/flutter_minimap.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('builds an InteractiveViewer and visible minimap', (tester) async {
+  testWidgets('builds an InteractiveViewer and visible minimap', (
+    tester,
+  ) async {
     final controller = TransformationController();
     addTearDown(controller.dispose);
 

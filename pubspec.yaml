@@ -1,6 +1,7 @@
 name: flutter_minimap
 description: A lightweight, synchronized minimap for Flutter InteractiveViewer.
-version: 0.1.0
+version: 0.1.9
+license: MIT
 homepage: https://github.com/yashh1994/flutter_minimap
 repository: https://github.com/yashh1994/flutter_minimap
 issue_tracker: https://github.com/yashh1994/flutter_minimap/issues

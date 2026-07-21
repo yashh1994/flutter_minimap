@@ -20,8 +20,8 @@ class MiniMapViewer extends StatefulWidget {
     this.allowDrag = true,
     this.visibilityMode = MiniMapVisibility.always,
     super.key,
-  })  : assert(width > 0),
-        assert(height > 0);
+  }) : assert(width > 0),
+       assert(height > 0);
 
   /// The controller shared with the underlying [InteractiveViewer].
   final TransformationController controller;
